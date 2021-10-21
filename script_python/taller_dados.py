@@ -18,7 +18,7 @@ while play :
     acum += position
 
     if(dado1 == dado2):
-        print("ha sacado su primer numero par")
+        print("ha sacado su primer numero par","\n" )
         while play :
             dado1 = randint(1,6)
             dado2 = randint(1,6)
